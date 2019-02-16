@@ -1,0 +1,32 @@
+#app{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#app button{
+    background-color: rgb(255,92,148);
+	border-radius: 8px;
+	color: white;
+	padding: 20px;
+    font-size: 1.5em;
+    display: block;
+
+}
+
+#app h1 {
+	color: white;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#app input{
+    max-width: 40rem;
+    display: block;
+    font-size: 1.5em;
+}
